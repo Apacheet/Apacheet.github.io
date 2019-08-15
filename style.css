@@ -1,0 +1,66 @@
+body {
+	background-color:white;
+
+}
+
+
+#eurasiercentered {
+margin: 10px;
+text-align: center;
+}
+
+.bottommargin {
+margin-bottom: 25px;
+}
+
+
+.topmargin {
+margin-top: 15px;
+}
+
+.bigfont {
+font-family: 'Ubuntu', sans-serif;
+color: orange;	
+font-size:30px;
+}
+
+#smallfont {
+font-size: 18px;
+}
+
+h1 {
+	font-size: 80px;
+    color: gold;
+	font-family: 'Luckiest Guy', cursive;	
+	text-align: center;	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+h2{
+	font-size: 45px;
+	color: gold;
+    font-family: 'Luckiest Guy', cursive;	
+	text-align: center;	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img:hover {
+	transform: scale(1.1);
+} 
+
+a {	   
+	color:gold;
+	font-size: 25px;
+	font-family: 'Luckiest Guy', cursive;	
+}   
+
+br{
+	color:black;
+}
+
+
