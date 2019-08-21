@@ -32,11 +32,11 @@ h1 {
 }
 
 h2{
-	font-size: 400%;
+	font-size: 45px;
 	color: gold;
     font-family: 'Luckiest Guy', cursive;
 	text-align: center;
-	display: flex;
+	display: block;
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -71,7 +71,7 @@ img:hover {
 
 a {
 	color:gold;
-	font-size: 25%;
+	font-size: 30px;
 	font-family: 'Luckiest Guy', cursive;
 }
 
