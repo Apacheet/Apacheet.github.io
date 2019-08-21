@@ -3,24 +3,22 @@ body {
 
 }
 
+/* Fonts and words */
 
-.bottommargin {
-margin-bottom: 25px;
-margin-left: 25px;
-}
-
-.topmargin {
-margin-top: 15px;
-}
+.margin {
+	margin-bottom: 25px;
+	margin-left: 25px;
+	margin-top: 15px;
+	}
 
 .bigfont {
-font-family: 'Ubuntu', sans-serif;
-color: rgb(60, 60, 60);
-font-size:20px;
+	font-family: 'Ubuntu', sans-serif;
+	color: rgb(60, 60, 60);
+	font-size:20px;
 }
 
 #smallfont {
-font-size: 18px;
+	font-size: 18px;
 }
 
 h1 {
@@ -31,11 +29,10 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-
 }
 
 h2{
-	font-size: 45px;
+	font-size: 400%;
 	color: gold;
     font-family: 'Luckiest Guy', cursive;
 	text-align: center;
@@ -43,6 +40,7 @@ h2{
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
 
 /* images */
 
