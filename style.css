@@ -45,7 +45,7 @@ h2{
 /* images */
 
 .img-right {
-	width: 250px;
+	width: 440px;
 	float: right;
 	margin-top: 20px;
 	margin-right: 20px;
@@ -53,7 +53,7 @@ h2{
 	margin-bottom: 20px;
 }
 .img-left {
-	width: 250px;
+	width: 440px;
 	float: left;
 	margin-top: 20px;
 	margin-right: 20px;
