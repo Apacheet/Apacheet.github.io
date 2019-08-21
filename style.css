@@ -12,8 +12,8 @@ text-align: center;
 
 .bottommargin {
 margin-bottom: 25px;
+margin-left: 25px;
 }
-
 
 .topmargin {
 margin-top: 15px;
@@ -21,7 +21,7 @@ margin-top: 15px;
 
 .bigfont {
 font-family: 'Ubuntu', sans-serif;
-color: orange;
+color: rgb(60, 60, 60);
 font-size:20px;
 }
 
@@ -51,7 +51,7 @@ h2{
 }
 
 img:hover {
-	transform: scale(1.1);
+	transform: scale(1.07);
 }
 
 a {
@@ -71,7 +71,7 @@ br{
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-	font-size: 27px;	
+	
 }
 
 /* Portrait */
@@ -89,4 +89,4 @@ br{
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
-}feaeafaefeaf
+}
