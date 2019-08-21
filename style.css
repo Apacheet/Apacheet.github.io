@@ -4,12 +4,6 @@ body {
 }
 
 
-
-#eurasiercentered {
-margin: 10px;
-text-align: center;
-}
-
 .bottommargin {
 margin-bottom: 25px;
 margin-left: 25px;
@@ -50,18 +44,37 @@ h2{
 	justify-content: center;
 }
 
+/* images */
+
+.img-right {
+	width: 250px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.img-left {
+	width: 250px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
 img:hover {
-	transform: scale(1.07);
+	transform: scale(1.05);
+}
+
+.source {
+	text-align: center;
 }
 
 a {
 	color:gold;
-	font-size: 25px;
+	font-size: 25%;
 	font-family: 'Luckiest Guy', cursive;
-}
-
-br{
-	color:black;
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
