@@ -75,8 +75,6 @@ a {
 	font-family: 'Luckiest Guy', cursive;
 }
 
-/* ----------- iPhone 4 and 4S ----------- */
-
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 320px) 
