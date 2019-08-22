@@ -45,22 +45,20 @@ h2{
 /* images */
 
 .img-right {
-	width: 100%;
-	max-width: 450px;
+	width: 450px;
 	float: right;
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-left: 20px;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
 }
 .img-left {
-	width: 100%;
-	max-width: 450px;
+	width: 450px;
 	float: left;
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-left: 20px;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
 }
 
 img:hover {
@@ -77,33 +75,14 @@ a {
 	font-family: 'Luckiest Guy', cursive;
 }
 
-/* Portrait and Landscape */
-@media only screen  
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 800px) {
+	.img-left, .img-right {
+		width: 100%; 
+		margin: 5px;
 
-}
-
-/* Portrait */
-@media screen  
-  and (min-width: 500px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+	}
 	
-.img-left {
-width: 100px;
-margin-top: 20px;
-margin-right: 20px;
-margin-left: 20px;
-margin-bottom: 20px;
-}
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
+	.bigfont {
+		font-size: 20px;
+	}
 }
