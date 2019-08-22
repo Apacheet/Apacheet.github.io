@@ -70,25 +70,32 @@ img:hover {
 }
 
 a {
+	text-align:; 
 	color:gold;
 	font-size: 30px;
 	font-family: 'Luckiest Guy', cursive;
 }
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen  
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-	
+
 }
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+@media screen  
+  and (min-width: 500px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+	
+.img-left {
+width: 100px;
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+}
 }
 
 /* Landscape */
