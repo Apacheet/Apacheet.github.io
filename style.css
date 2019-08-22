@@ -78,7 +78,8 @@ a {
 @media screen and (max-width: 800px) {
 	.img-left, .img-right {
 		width: 100%; 
-		margin: 15px;
+		margin-right: 20px;
+		margin-left: 20px;
 
 	}
 	
