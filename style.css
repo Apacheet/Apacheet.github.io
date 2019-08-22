@@ -61,10 +61,6 @@ h2{
 	margin-bottom: 30px;
 }
 
-img:hover {
-	transform: scale(1.05);
-}
-
 .source {
 	text-align: center;
 }
@@ -77,11 +73,12 @@ a {
 
 @media screen and (max-width: 800px) {
 	.img-left, .img-right {
-		width: 100%; 
-		margin-right: 20px;
-		margin-left: 20px;
-
-	}
+	width: 100%;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+}
 	
 	.bigfont {
 		font-size: 20px;
