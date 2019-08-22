@@ -45,7 +45,8 @@ h2{
 /* images */
 
 .img-right {
-	width: 440px;
+	width: 100%;
+	max-width: 450px;
 	float: right;
 	margin-top: 20px;
 	margin-right: 20px;
@@ -53,7 +54,8 @@ h2{
 	margin-bottom: 20px;
 }
 .img-left {
-	width: 440px;
+	width: 100%;
+	max-width: 450px;
 	float: left;
 	margin-top: 20px;
 	margin-right: 20px;
@@ -69,8 +71,7 @@ img:hover {
 	text-align: center;
 }
 
-a {
-	text-align:; 
+a { 
 	color:gold;
 	font-size: 30px;
 	font-family: 'Luckiest Guy', cursive;
