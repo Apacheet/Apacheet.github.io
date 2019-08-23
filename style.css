@@ -1,5 +1,5 @@
 body {
-	background-color:white;
+	background-color: rgb(73, 73, 73);
 
 }
 
@@ -13,7 +13,7 @@ body {
 
 .bigfont {
 	font-family: 'Ubuntu', sans-serif;
-	color: rgb(60, 60, 60);
+	color: rgb(255, 255, 255);
 	font-size:20px;
 }
 
@@ -97,7 +97,11 @@ a {
 
 	.bigfont {
 	font-size: 17px;
+	margin-left: 5px;
+	margin-right: 5px;
 	}
 
-
+	a {
+	font-size: 20px;
+	}
 }
