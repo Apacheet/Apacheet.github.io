@@ -5,16 +5,45 @@ body {
 
 /* Fonts and words */
 
+.rarity {
+	font-family: 'Ubuntu', sans-serif;
+	font-size:30px;
+	margin-bottom: 25px;
+	margin-left: 40px;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+
+.common {
+	color: grey;
+}
+
+.uncommon {
+	color: green;
+}
+
+.rare {
+	color: blue;
+}
+
+.epic {
+	color: purple;
+}
+
+.legendary {
+	color: gold;
+}
 .margin {
 	margin-bottom: 25px;
 	margin-left: 25px;
 	margin-top: 15px;
-	}
+	margin-right: 5px;
+}
 
 .bigfont {
 	font-family: 'Ubuntu', sans-serif;
-	color: rgb(255, 255, 255);
-	font-size:20px;
+	color: white;
+	font-size:25px;
 }
 
 #smallfont {
@@ -33,7 +62,7 @@ h1 {
 
 h2{
 	font-size: 55px;
-	color: rgb(255, 160, 51);
+	color: gold;
     font-family: 'Concert One', cursive;
 	text-align: center;
 	display: block;
@@ -104,6 +133,10 @@ a {
 	}
 
 	a {
+	font-size: 20px;
+	}
+
+	.rarity {
 	font-size: 20px;
 	}
 }
