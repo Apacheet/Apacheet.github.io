@@ -69,6 +69,7 @@ h2{
 	flex-wrap: wrap;
 	justify-content: center;
 	text-align: center;
+	text-shadow: 2px 2px 4px black;
 }
 
 a { 
