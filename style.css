@@ -1,10 +1,9 @@
 body {
+	text-align: center;
 	background-color: rgb(73, 73, 73);
-
 }
 
 /* Fonts and words */
-
 .rarity {
 	font-family: 'Ubuntu', sans-serif;
 	font-size:30px;
@@ -140,5 +139,10 @@ a {
 
 	.rarity {
 	font-size: 20px;
+	
 	}
+}
+
+.text-lighter {
+	font-weight: lighter;
 }
