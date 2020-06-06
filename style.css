@@ -57,7 +57,8 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	text-shadow: 3px 3px 4px grey;
+	text-shadow: 3px 3px 4px rgb(47, 47, 47);
+	margin-bottom: 60px;
 }
 
 h2{
@@ -69,7 +70,7 @@ h2{
 	flex-wrap: wrap;
 	justify-content: center;
 	text-align: center;
-	text-shadow: 2px 2px 4px grey;
+	text-shadow: 2px 2px 4px rgb(47, 47, 47);
 }
 
 a { 
